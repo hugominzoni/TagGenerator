@@ -31,7 +31,9 @@ li{
 
 .workplace,
 .education,
-.healthcare{
+.healthcare,
+.color,
+.lifestyle{
     width: 400px;
     font-size: 13px;
 }
@@ -86,6 +88,12 @@ li{
     transform: translateX(-50%);
 }
 
+
+.selected{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(0, 193, 0)
+}
 
 .hidden{
     display: none;

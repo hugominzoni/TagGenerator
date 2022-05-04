@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.container{
+    width: 100vw;
+    /* padding-bottom: 50px; */
+}
+
+.sub-category{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+
+}
+
+.workplace,
+.education,
+.healthcare{
+    width: 400px;
+    font-size: 13px;
+}
+
+.workplace h2,
+.education h2,
+.healthcare h2{
+    margin: 20px 0 10px;
+}
+
+.result{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(206, 206, 206);
+    width: 100vw;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result h3{
+    width: 90%;
+}
+
+.btn{
+    padding: 5px 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #1a55ef;
+    color: white;
+    transition: all ease-in-out .3s;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.buttons{
+    height: 80px ;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.info{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: -10px;
+    left: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    transform: translateX(-50%);
+}
+
+
+.hidden{
+    display: none;
+}
+
+.btn:hover{
+    background-color: #4778f7;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.219);
+    transform: translateY(2px);
+    
+}
+
+.btn:active {
+    transform: translateY(4px);
+}
+
+.lifestyle{
+    width: 100vw;
+    padding: 40px;
+    background-color: #fcfcfc;
+    text-align: center;
+}
+
+.lifestyle ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.lifestyle h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.color{
+
+    background-color: #fff;
+}
+
+.last{
+    margin-bottom: 100px;
+}

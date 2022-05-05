@@ -26,7 +26,46 @@ li{
     display: flex;
     width: 100vw;
     justify-content: space-evenly;
+    padding-bottom: 40px;
+    background-color: #F3F4F9;
+}
 
+.verticals{
+    background-color: #F3F4F9;
+    padding: 40px ;
+}
+
+.brands,
+.categories{
+    padding: 40px;
+}
+
+.brands,
+.verticals,
+.categories{
+    text-align: center;
+    width: 100vw;
+    font-size: 13px;
+}
+
+.brands ul,
+.verticals ul,
+.categories ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands li,
+.verticals li,
+.categories li{
+    margin: 20px 30px;
+}
+
+.subC{
+    text-align: center;
+    background-color: #F3F4F9;
+    padding-top: 40px;
 }
 
 .workplace,
@@ -40,25 +79,11 @@ li{
 
 .workplace h2,
 .education h2,
-.healthcare h2{
+.healthcare h2,
+.brands h2{
     margin: 20px 0 10px;
 }
 
-.result{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background-color: rgb(206, 206, 206);
-    width: 100vw;
-    padding: 30px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.result h3{
-    width: 90%;
-}
 
 .btn{
     padding: 5px 20px;
@@ -114,7 +139,7 @@ li{
 .lifestyle{
     width: 100vw;
     padding: 40px;
-    background-color: #fcfcfc;
+    
     text-align: center;
 }
 
@@ -130,9 +155,25 @@ li{
 
 .color{
 
-    background-color: #fff;
+    background-color: #F3F4F9;
 }
 
 .last{
     margin-bottom: 100px;
+}
+
+.result{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #F3F4F9;
+    width: 100vw;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result h3{
+    width: 90%;
 }

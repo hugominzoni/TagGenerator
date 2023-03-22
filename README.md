@@ -4,6 +4,6 @@ This is a JavaScript exercise where I identified a problem within the company th
 
 The project was developed by the scratch and all the ideas and solutions were developed by me.
 
-I understand that this solution is incredibly rustic and might have tons of improvement, but the whole goal was to create something by myself.
+I understand that this solution is incredibly basic and might have tons of issues and space for improvement, but the whole goal was to create something by myself.
 
 Cheers!
